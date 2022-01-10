@@ -1,0 +1,80 @@
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/art/family.jpg);
+
+    width: 100%;
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    transition: 2s;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes animate {
+    0%{
+        background-image: url(/art/nora.jpg);
+    }
+    50%{
+        background-image: url(/art/rape.jpg);  
+    }
+    100%{
+        background-image: url(/art/face-model.jpg);
+    }
+}
+
+/* .container{
+    width: 100%;
+    height: calc(100vh - 50px);
+    display: flex;
+} */
+.card{
+    padding: 100px;
+    padding-right: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title{
+    font-size: 80px;
+    margin: 0;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.desc{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin: 0;
+    color: #fff;
+    font-style: italic;
+}
+
+.button{
+    bottom: none;
+    background-color: #4FBDBA;
+    color: #fff;
+    font-weight: bold;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}

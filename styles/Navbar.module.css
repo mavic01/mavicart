@@ -1,0 +1,26 @@
+.container{
+    height: 70px;
+    background-color: #2C272E;
+    color: #4FBDBA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.listItem{
+    display: inline;
+    margin-right: 30px;
+    font-size: 14px;
+    color:lightgray;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.brand{
+    font-style: italic;
+}
