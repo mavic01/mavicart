@@ -1,7 +1,7 @@
 import styles from "../styles/Footer.module.css"
 import Image from "next/image"
 import Link from "next/link"
-import { Phone, Instagram } from "@material-ui/icons"
+import { Phone, Instagram, LocationOn } from "@material-ui/icons"
 
 const Footer = () => {
     let getYear = () => {
@@ -14,17 +14,18 @@ const Footer = () => {
                 <h1 className={styles.title}>Mavic art</h1>
                 <h1 className={styles.linkTitle}>
                     <Link href="/contact" passHref>
-                        <span className={styles.linkText}>GET IN TOUCH <Image alt="" src="/img/link.png" width="40px" height="40px"/></span>
+                        {/* <span className={styles.linkText}>GET IN TOUCH <Image alt="" src="/img/link.png" width="40px" height="40px"/></span> */}
+                        <span className={styles.linkText}>GET IN TOUCH <Image alt="" src={process.env.NEXT_PUBLIC_URL + "/img/link.png"} width="40px" height="40px"/></span>
                         
                     </Link>
                 </h1>
             </div>
             <div className={styles.cardS}>
                 <div className={styles.cardItem}>
-                    Lagos, Nigeria
+                    <LocationOn /> Lagos, Nigeria
                 </div>
-                <div className={styles.cardItem}>
-                    <Phone /> +234 810 864 6033
+                <div className={styles.cardItemz}>
+                    <Phone /> <a href="tel:+234 810 864 6033">+234 810 864 6033</a>
                 </div>
             </div>
             <div className={styles.cardS}>

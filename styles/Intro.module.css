@@ -78,3 +78,15 @@
     border-radius: 10px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px){ /*mobile*/
+    .card{
+        padding: 70px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .title{
+        display: none;
+    }
+}
