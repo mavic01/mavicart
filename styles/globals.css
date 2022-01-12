@@ -24,13 +24,13 @@ a {
   width: 100vh;
   border-radius: 50%;
   position: absolute;
-  z-index: 999;
+  z-index: 950;
   opacity: 0.1;
   margin: auto;
 }
 
-/* @media screen and (max-width: 480px){
+@media screen and (max-width: 480px){
   .circle{
     display: none;
   }
-} */
+}

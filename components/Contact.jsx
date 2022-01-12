@@ -1,9 +1,10 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import styles from "../styles/Contact.module.css";
 import emailjs from '@emailjs/browser';
 import Circle from "../components/Circle.jsx"
 
 const Contact = () => {
+    const [message, setMessage] = useState(false)
     const form = useRef();
 
     function sendEmail(e) {
@@ -16,6 +17,7 @@ const Contact = () => {
             console.log(error.text);
         });
         alert("Email sent successfully!")
+        e.target.reset()
     }
     return (
         <div className={styles.container}>
