@@ -1,8 +1,9 @@
 module.exports = {
   reactStrictMode: true,
-  images: {
-    domains: ["mavicart.com.ng"]
-  },
-  loader: "imgix",
-  path: "",
+  // images: {
+  //   domains: ["mavicart.com.ng"],
+  //   loader: "imgix",
+  //   path: "",
+  // },
+  
 }

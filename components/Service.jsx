@@ -16,9 +16,9 @@ const Service = ({services}) => {
                             <div className={styles.media}>
                                 {service.video ? 
                                     // (<video src={`/art/${service.video}`} autoPlay muted loop className={styles.video}/>) : 
-                                    // (<Image src={`/art/${service.photo}`} alt="Art Img" width="100%" height="100%" layout="responsive" objectFit="cover"/>)
                                     (<video src={`/art/${service.video}`} autoPlay muted loop className={styles.video}/>) : 
-                                    (<Image src={`${process.env.NEXT_PUBLIC_URL}/art/${service.photo}`} alt="Art Img" width="100%" height="100%" layout="responsive" objectFit="cover"/>)
+                                    (<Image src={`/art/${service.photo}`} alt="Art Img" width="100%" height="100%" layout="responsive" objectFit="cover"/>)
+                                    // (<Image src={`${process.env.NEXT_PUBLIC_URL}/art/${service.photo}`} alt="Art Img" width="100%" height="100%" layout="responsive" objectFit="cover"/>)
                                 }
                             </div>
                         </div>

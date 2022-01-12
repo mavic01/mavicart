@@ -13,7 +13,7 @@ const Testimonals = () => {
                     <div key={user.id} className={styles.card}>
                         <p className={styles.comment}>{user.comment}</p>
                         <div className={styles.person}>
-                            <Image className={styles.avatar} alt="art" src={`${process.env.NEXT_PUBLIC_URL}/art/${user.avatar}`} width="45" height="45" objectFit="cover"/>
+                            <Image className={styles.avatar} alt="art" src={"/art/${user.avatar}"} width="45" height="45" objectFit="cover"/>
                             <div className={styles.info}>
                                 <span className={styles.username}>{user.name}</span>
                                 <span className={styles.jobTitle}>{user.title}</span>
