@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>MAVIC ART</title>
+        <title>mavic art</title>
         <meta name="description" content="Get your art portrait done" />
         <meta name="keywords" content="art, artist, pencil, gallery, pop art, abstract, art gallery, art supplies, modern art, artwork, fine arts, famous artists" />
         <meta name="author" content="John Doe" />
