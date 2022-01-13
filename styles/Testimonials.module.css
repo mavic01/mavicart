@@ -10,13 +10,15 @@
 }
 .title{
     text-align: center;
-    margin: 0
+    margin: 0;
+    color: #121212;
 }
 .wrapper{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+
 }
 .card {
     width: 30%;
@@ -24,6 +26,7 @@
 .comment{
     font-size: 20px;
     font-weight: 300;
+    font-style: italic;
 }
 .person{
     display: flex;
@@ -40,7 +43,7 @@
 }
 .username{
     font-weight: bold;
-    color: #555;
+    color: rgb(56, 55, 55);
 }
 
 @media screen and (max-width: 480px){
@@ -50,9 +53,16 @@
         padding-right: 12px;
         height: auto;
     }
+    .comment{
+        font-size: 18px;
+        font-weight: 100;
+    }
+    .wrapper{
+        padding: 0 15px;
+    }
     .title{
-        font-size: 43px;
-        margin-bottom: 40px;
+        font-size: 27px;
+        margin-bottom: 35px;
        margin-top: 80px;
     }
     .card{

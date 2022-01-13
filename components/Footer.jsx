@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
             <div className={styles.cardS}>
                 <div className={styles.cardItem}>
-                    FOLLOW US <br /> <Instagram /> <a style={{color: "purple"}} href="https://www.instagram.com/mavic_art/" target="_blank" rel="noreferrer">mavic_art</a>
+                    FOLLOW US <br /> <Instagram style={{color: "#C13584"}}/> <a style={{color: "#0645AD"}} href="https://www.instagram.com/mavic_art/" target="_blank" rel="noreferrer">mavic_art</a>
                 </div>
                 <div className={styles.cardItem}>
                     &copy; {getYear()} mavic art, <br /> ALL RIGHTS RESERVED

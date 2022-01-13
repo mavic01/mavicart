@@ -27,13 +27,13 @@
 
 @keyframes animate {
     0%{
-        background-image: url(/art/nora.jpg);
+        background-image: url(/art/nora-compressed.jpg);
     }
     50%{
-        background-image: url(/art/rape.jpg);  
+        background-image: url(/art/rape-compressed.jpg);  
     }
     100%{
-        background-image: url(/art/face-model.jpg);
+        background-image: url(/art/face-model-compressed.jpg);
     }
 }
 

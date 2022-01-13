@@ -66,7 +66,7 @@ export const users = [
         logo: "aimadraw.jpg",
         name: "Aima",
         title: "Software Engineer",
-        comment: "My heart be beating like duduke when I saw this🥰😍🥰I love it so much."
+        comment: "My heart be beating like duduke when I saw this😍I love it so much."
     },
     {
         id: 3,

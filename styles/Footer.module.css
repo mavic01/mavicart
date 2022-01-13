@@ -12,8 +12,8 @@
     font-weight: 400;
     /* color: white;
     background-color: #4FBDBA; */
-    background-color: #4fbdb983;
-    color: rgba(255, 255, 255, 0.842);
+    background-color: #246866;
+    color: rgba(255, 255, 255, 0.534);
     text-transform: uppercase;
     padding: 5px;
     text-align: center;
@@ -57,7 +57,8 @@
         font-size: 25px;
     }
     .title{
-        background-color: #4fbdb983;
-        color: rgba(255, 255, 255, 0.842);
+        background-color: #246866;
+        font-size: 19px;
+        color: rgba(255, 255, 255, 0.534);
     }
 }
