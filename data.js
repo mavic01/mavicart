@@ -48,6 +48,11 @@ export const data = [
         id: 10,
         title: "Pep",
         photo: "pep.jpg"
+    },
+    {
+        id: 11,
+        title: "Yoga",
+        photo: "yoga.jpg"
     }
 ]
 
