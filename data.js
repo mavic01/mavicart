@@ -56,7 +56,7 @@ export const data = [
     },
     {
         id: 12,
-        title: "the joys of motherhood",
+        title: "motherhood",
         photo: "mom.jpg"
     }
 ]
