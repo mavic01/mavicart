@@ -14,7 +14,7 @@ const Footer = () => {
                 <h1 className={styles.title}>Mavic art</h1>
                 <h1 className={styles.linkTitle}>
                     <Link href="/contact" passHref>
-                        <span className={styles.linkText}>GET IN TOUCH <Image className={styles.goat} alt="" src="/img/link.png" width="40px" height="40px"/></span>
+                        <span className={styles.linkText}>GET IN TOUCH <Image alt="" src="/img/link.png" width="40px" height="40px"/></span>
                         {/* <span className={styles.linkText}>GET IN TOUCH <Image alt="" src={process.env.NEXT_PUBLIC_URL + "/img/link.png"} width="40px" height="40px"/></span> */}
                         
                     </Link>
