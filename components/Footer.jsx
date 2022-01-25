@@ -14,7 +14,7 @@ const Footer = () => {
                 <h1 className={styles.title}>Mavic art</h1>
                 <h1 className={styles.linkTitle}>
                     <Link href="/contact" passHref>
-                        <span className={styles.linkText}>GET IN TOUCH <Image alt="" src="/img/link.png" width="40px" height="40px"/></span>
+                        <span className={styles.linkText}>GET IN TOUCH <Image className={styles.goat} alt="" src="/img/link.png" width="40px" height="40px"/></span>
                         {/* <span className={styles.linkText}>GET IN TOUCH <Image alt="" src={process.env.NEXT_PUBLIC_URL + "/img/link.png"} width="40px" height="40px"/></span> */}
                         
                     </Link>
@@ -25,7 +25,7 @@ const Footer = () => {
                     <LocationOn /> Lagos, Nigeria
                 </div>
                 <div className={styles.cardItemz}>
-                    <Phone /> <a href="tel:+234 810 864 6033">+234 810 864 6033</a>
+                    <Phone /> <a href="tel:+234 810 864 6033">Call</a>
                 </div>
             </div>
             <div className={styles.cardS}>

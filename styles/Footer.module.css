@@ -13,7 +13,7 @@
     /* color: white;
     background-color: #4FBDBA; */
     background-color: #246866;
-    color: rgba(255, 255, 255, 0.534);
+    color: rgba(255, 255, 255, 0.336);
     text-transform: uppercase;
     padding: 5px;
     text-align: center;
@@ -58,7 +58,9 @@
     }
     .title{
         background-color: #246866;
-        font-size: 19px;
-        color: rgba(255, 255, 255, 0.534);
+        font-size: 15px;
+    }
+    .goat{
+        display: none;
     }
 }
