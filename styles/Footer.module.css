@@ -19,6 +19,7 @@
     text-align: center;
     border-radius: 5px;
     width: max-content;
+    display: none;
 }
 .linkTitle{
     text-decoration: underline;
