@@ -60,7 +60,7 @@
         background-color: #246866;
         font-size: 15px;
     }
-    span{
+    .linkText{
         display: none;
     }
 }
