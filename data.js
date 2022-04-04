@@ -58,6 +58,11 @@ export const data = [
         id: 12,
         title: "motherhood",
         photo: "mom.jpg"
+    },
+    {
+        id: 13,
+        title: "Fel",
+        photo: "f.jpg"
     }
 ]
 
